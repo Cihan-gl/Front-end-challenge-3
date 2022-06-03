@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Poppins:wght@300;400&display=swap");
+
+html {
+  font-family: "Karla", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("./images/bg-desktop.svg");
+  display: flex;
+  background-color: rgb(102, 72, 177);
+  
+}
+.container {
+  width: 100%;
+}
+
+.right {
+  padding: 40px;
+  margin-left: 60px;
+  max-width: 460px;
+}
+
+.left {
+  padding: 10px;
+}
+
+.row h1 {
+  margin-bottom: 20px;
+}
+.header h1 {
+  font-weight: 600;
+  color: #fff;
+}
+.right h1 {
+  font-weight: 600;
+  color: #fff;
+}
+
+.right p {
+  font-weight: 400;
+  color: #fff;
+}
+
+.right .buton {
+  text-decoration: none;
+  padding: 12px;
+  background-color: white;
+  color: rgb(103, 75, 175);
+  border-radius: 40px;
+  width: 165px;
+  text-align: center;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+  border: none;
+  margin-top: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 50px;
+  text-align: right;
+}
+ul li {
+  display: inline;
+  margin: 8px;
+}
+
+
+.footer {
+  padding: 20px;
+  margin: 10px;
+  margin-top: 500px;
+}
+
+.buton:hover
+{
+    opacity: 0.8;
+}
